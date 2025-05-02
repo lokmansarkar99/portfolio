@@ -21,7 +21,7 @@ const projects = [
 
     {
       id: "677997e89c4aede5576bb184",
-      image: "https://i.ibb.co.com/HTkKYsQ5/Screenshot-4.png",
+      image: "https://i.ibb.co.com/HTMNyLNb/Screenshot-2.png",
       title: "ContactSys - A Contact Management System",
       technologies: ["React", "Node Js", "Express Js", "MongoDB", "firebase"],
       frontend: ["React", "Bootstrap"],
