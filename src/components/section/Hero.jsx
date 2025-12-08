@@ -1,5 +1,7 @@
 import SocialIcon from "../SocialIcon"
 import avatar from '../../assets/avatar.png'
+import LokmanResume from '../../assets/LokmanResume.pdf'
+import { Link } from "react-router"
 
 const Hero = () => {
   return (
@@ -22,13 +24,13 @@ const Hero = () => {
    <SocialIcon  />
 
       <div id="info-btn" className="flex gap-1 mt-5">
-        <button className="bg-amber-400   px-4 py-3 text-xl  text-black hover:text-white font-semibold hover:bg-amber-500 transition-all duration-500 ">
+        <Link to={"/contact"} className="bg-amber-400   px-4 py-3 text-xl  text-black hover:text-white font-semibold hover:bg-amber-500 transition-all duration-500 ">
           Hire Me{" "}
-        </button>
+        </Link>
 
-        <button className="bg-slate-400 px-4 py-3 text-xl text-black hover:text-white font-semibold hover:bg-slate-500 transition-all duration-500 ">
+        <a href={LokmanResume} download  className="bg-slate-400 px-4 py-3 text-xl text-black hover:text-white font-semibold hover:bg-slate-500 transition-all duration-500 ">
           Download CV <span></span>
-        </button>
+        </a>
       </div>
     </div>
 

@@ -1,6 +1,7 @@
-
+import { useNavigate } from "react-router"
 
 const Portfolio = () => {
+  const navigate = useNavigate();
   return (
     <section id="portfolio" className="py-20">
 
@@ -10,7 +11,7 @@ const Portfolio = () => {
     <p className="lg:w-1/2 text-gray-800 dark:text-white">My step-by-step guide ensures a smooth project journey, from the initial consultation to the final delivery. I take care of every detail, allowing you to focus on what you do best.</p>
     </div>
     
-    <button className="btn bg-amber-500 hover:bg-amber-600 hover:text-white text-black md:px-5 md:py-4 rounded md:min-w-[150px] font-bold ">
+    <button  onClick={() => navigate("/contact")}  className="btn bg-amber-500 hover:bg-amber-600 hover:text-white text-black md:px-5 md:py-4 rounded md:min-w-[150px] font-bold ">
         Contact Me
     </button>
     
