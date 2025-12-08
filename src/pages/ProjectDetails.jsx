@@ -6,6 +6,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { IoLinkOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 
+import { Link } from 'react-router';
+
 const ProjectDetails = () => {
   const { projectID } = useParams()
   const project = data.find((project) => project.id === projectID)
@@ -28,7 +30,7 @@ const ProjectDetails = () => {
      </div>
 
     <div className='w-full flex items-center justify-center mb-4'>
-        <div className=' w-40 text-black flex bg-amber-400 hover:bg-amber-500 hover:transition-all duration-500  items-center justify-center rounded p-1' ><FaTelegramPlane />  <a  className='px-4 py-2' href="/contact">Hire Me</a></div></div>
+        <div className=' w-40 text-black flex bg-amber-400 hover:bg-amber-500 hover:transition-all duration-500  items-center justify-center rounded p-1' ><FaTelegramPlane />  <Link  className='px-4 py-2' to="/contact">Hire Me</Link></div></div>
 
 <div className='flex flex-col md:flex-row gap-4 items-center justify-center'> 
 <div id='details-side-card' className='min-h-96 w-full flex-1 bg-zinc-100 dark:bg-neutral-700 text-white p-4 rounded-lg shadow-lg mb-8'>
@@ -36,8 +38,8 @@ const ProjectDetails = () => {
   <h2 className=' text-2xl  text-black dark:text-gray-400'>View Site On</h2>
 
        <div className="flex mt-5  items-center gap-6 ml-2 mb-4 text-black ">
-        <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700 "><IoLinkOutline />  <a href={project.live_link}className=" dark:hover:text-amber-500 " target="_blank" >Live Link</a></div>
-       <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700  "> <FaGithub /> <a className="dark:hover:text-amber-500  " href={project.github_link} >Github </a></div>
+        <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700 "><IoLinkOutline />  <Link to={project.live_link}className=" dark:hover:text-amber-500 " target="_blank" >Live Link</Link></div>
+       <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700  "> <FaGithub /> <Link className="dark:hover:text-amber-500  " to={project.github_link}  target='_blank' >Github </Link></div>
 
         </div>
 

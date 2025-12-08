@@ -1,6 +1,7 @@
 import { IoLinkOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { CgDetailsMore } from "react-icons/cg";
+import { Link } from "react-router";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -11,9 +12,9 @@ const ProjectCard = ({ project }) => {
           src={project.image}
           alt={project.title}
         />
-        <a
+        <Link
           className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300 flex flex-col justify-center items-center"
-          href={`/project/${project.id}`}
+          to={`/project/${project.id}`}
           data-discover="true"
           target="_blank"
         >
@@ -31,26 +32,26 @@ const ProjectCard = ({ project }) => {
             </svg>
           </p>
           <p className="text-2xl text-white">see details</p>
-        </a>
+        </Link>
       </div>
 
       <div className="flex mt-5  items-center gap-6 ml-2 ">
         <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700 ">
           <IoLinkOutline />{" "}
-          <a
-            href={project.live_link}
+          <Link
+            to={project.live_link}
             className=" dark:hover:text-amber-500 "
             target="_blank"
           >
             Live Link
-          </a>
+          </Link>
         </div>
         <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700  ">
           {" "}
           <FaGithub />{" "}
-          <a className="dark:hover:text-amber-500  " href={project.github_link}>
+          <Link className="dark:hover:text-amber-500  " to={project.github_link} target="_blank">
             Github{" "}
-          </a>
+          </Link>
         </div>
 
         <div className="flex gap-2 items-center dark:text-amber-400 underline decoration-1 dark:decoration-amber-700  ">

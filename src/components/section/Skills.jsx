@@ -32,7 +32,7 @@ const Skills = () => {
     </div>
 
     <div className="py-10" >
-      <h1 className="text-3xl">Front-End</h1>
+      <h1 className="text-3xl">Front-End Development</h1>
       <div className="flex flex-wrap gap-5 my-5">
 
       <div>
@@ -67,11 +67,22 @@ const Skills = () => {
             NextJs
           </span>
         </div>
+          <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
+            RTK
+          </span>
+        </div>
+
+          <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-amber-400 hover:bg-amber-500 hover:text-white transition duration-300">
+            Tanstack Query
+          </span>
+        </div>
       
 
      
       </div>
-      <h1 className="text-3xl">Backend</h1>
+      <h1 className="text-3xl">Backend Development</h1>
       <div className="flex flex-wrap gap-5 my-5">
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-green-600 hover:bg-green-700 hover:text-white transition duration-300">
@@ -83,11 +94,7 @@ const Skills = () => {
             ExpressJs
           </span>
         </div>
-        <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300">
-            MongoDB
-          </span>
-        </div>
+    
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-orange-400 hover:bg-orange-500 hover:text-white transition duration-300">
            
@@ -100,23 +107,75 @@ const Skills = () => {
           </span>
         </div>
       </div>
-      <h1 className="text-3xl">Programming Language</h1>
+
+
+      <h1 className="text-3xl">Database and ORM</h1>
       <div className="flex flex-wrap gap-5 my-5">
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300">
-            JavaScript
+            MongoDB
+          </span>
+        </div>
+             <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-red-400 hover:bg-red-400 hover:text-white transition duration-300">
+            Mongoose
           </span>
         </div>
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-400 hover:bg-yellow-400 hover:text-white transition duration-300">
-            Python
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-600 hover:bg-blue-800 hover:text-white transition duration-300">
+            MySQL
+          </span>
+        </div>
+
+             <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-indigo-500 hover:bg-indigo-800 hover:text-white transition duration-300">
+            Prisma
+          </span>
+        </div>
+
+       
+      </div>
+
+      <h1 className="text-3xl">DevOps and Cloud</h1>
+      <div className="flex flex-wrap gap-5 my-5">
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-orange-500 hover:bg-orange-600 hover:text-white transition duration-300">
+            Git
           </span>
         </div>
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-500 hover:bg-red-500 hover:text-white transition duration-300">
-            Java
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-gray-400 hover:bg-gray-400 hover:text-white transition duration-300">
+            Github
           </span>
         </div>
+           <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-green-400 hover:bg-green-600 hover:text-white transition duration-300">
+           nginx
+          </span>
+        </div>
+        
+
+                <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-purple-400 hover:bg-purple-600 hover:text-white transition duration-300">
+           VPS
+          </span>
+        </div>
+
+
+                <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-white hover:bg-yellow-600 hover:text-black transition duration-300">
+           Render
+          </span>
+        </div>
+
+
+                <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-amber-400 hover:bg-amber-500 hover:text-white transition duration-300">
+          Vercel
+          </span>
+        </div>
+
+
       </div>
     </div>
   </section>

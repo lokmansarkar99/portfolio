@@ -74,7 +74,7 @@ const Footer = () => {
             <span className="text-amber-500">
               <FaMapMarkerAlt />
             </span>
-           Joypurhat, Rajshahi, Bangladesh
+           Mirpur, Dhaka-1216, Bangladesh
           </a>
           <a className="flex items-center gap-2"  href="mailto: lokmansarker608@gmail.com">
             <span className="text-amber-500">
@@ -86,7 +86,7 @@ const Footer = () => {
             <span className="text-amber-500">
               <FaPhone />
             </span>
-            +880113 31457642
+            +88013 31457642
           </a>
         </nav>
       </section>
