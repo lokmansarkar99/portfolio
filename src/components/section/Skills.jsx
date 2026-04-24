@@ -10,32 +10,44 @@ const Skills = () => {
       <span className="text-amber-500">Skills &amp; Experience</span>
     </h1>
 
-    <div className="space-y-2 pt-5 text-gray-800  dark:text-gray-400">
+    <div className="space-y-2 pt-5 text-gray-800 dark:text-gray-400">
       <p>
-        Experienced in building full-stack applications using the MERN stack
-        (MongoDB, Express.js, React.js, Node.js).{" "}
-      </p>
-      Frontend: Proficient in HTML, CSS, Tailwind CSS,  and
-      React.js, focusing on responsive, dynamic UIs and state management
-      with Redux (basic).
-      <p>
-        Backend: Skilled in developing RESTful APIs using Node.js and
-        Express.js, with strong knowledge of MongoDB for NoSQL and mySQL for SQL  database
-        management.
+        Backend-focused full-stack developer with hands-on experience building scalable REST APIs, multi-role platforms, payment flows, and cloud deployments using Node.js, Express.js, TypeScript, Prisma, MySQL, Next.js, and AWS.
       </p>
       <p>
-        Authentication &amp; APIs: Familiar with JWT for secure user
-        authentication and Axios for efficient API calls. Dedicated to
-        creating scalable, responsive, and secure web applications using
-        modern technologies.
+        <b>Frontend:</b> Proficient in HTML, CSS, Tailwind CSS, React.js, and Next.js, focusing on responsive, dynamic UIs and state management with Redux Toolkit and Tanstack Query.
+      </p>
+      <p>
+        <b>Backend:</b> Skilled in developing RESTful APIs using Node.js and Express.js, implementing JWT and OAuth, RBAC, and Socket.IO for real-time applications.
+      </p>
+      <p>
+        <b>Database &amp; Cloud:</b> Strong knowledge of MongoDB, MySQL, Prisma ORM, and deployment to VPS and AWS.
       </p>
     </div>
 
-    <div className="py-10" >
+    <div className="py-10">
+      <h1 className="text-3xl">Programming Languages</h1>
+      <div className="flex flex-wrap gap-5 my-5">
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-400 hover:bg-yellow-500 hover:text-white transition duration-300">
+            JavaScript
+          </span>
+        </div>
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-500 hover:bg-blue-600 hover:text-white transition duration-300">
+            TypeScript
+          </span>
+        </div>
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-300 hover:bg-blue-400 hover:text-white transition duration-300">
+            Python
+          </span>
+        </div>
+      </div>
+
       <h1 className="text-3xl">Front-End Development</h1>
       <div className="flex flex-wrap gap-5 my-5">
-
-      <div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-orange-500 hover:bg-orange-600 hover:text-white transition duration-300">
             HTML
           </span>
@@ -46,79 +58,71 @@ const Skills = () => {
           </span>
         </div>
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300">
-            JavaScript
-          </span>
-        </div>
-
-        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-cyan-300 hover:bg-cyan-400 hover:text-white transition duration-300">
-            Tailwind
+            Tailwind CSS
           </span>
         </div>
-
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-400 hover:bg-blue-500 hover:text-white transition duration-300">
-            ReactJs
+            React.js
           </span>
         </div>
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-gray-400 hover:bg-gray-500 hover:text-white transition duration-300">
-            NextJs
+            Next.js
           </span>
         </div>
-          <div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
-            RTK
+            Redux Toolkit
           </span>
         </div>
-
-          <div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-amber-400 hover:bg-amber-500 hover:text-white transition duration-300">
             Tanstack Query
           </span>
         </div>
-      
-
-     
       </div>
+
       <h1 className="text-3xl">Backend Development</h1>
       <div className="flex flex-wrap gap-5 my-5">
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-green-600 hover:bg-green-700 hover:text-white transition duration-300">
-            NodeJs
+            Node.js
           </span>
         </div>
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-gray-400 hover:bg-gray-500 hover:text-white transition duration-300">
-            ExpressJs
+            Express.js
           </span>
         </div>
-    
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-orange-400 hover:bg-orange-500 hover:text-white transition duration-300">
-           
-            Firebase
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-indigo-500 hover:bg-indigo-600 hover:text-white transition duration-300">
+            REST APIs
           </span>
         </div>
         <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-purple-400 hover:bg-purple-500 hover:text-white transition duration-300">
-            jwt
+            JWT &amp; OAuth
+          </span>
+        </div>
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-red-400 hover:bg-red-500 hover:text-white transition duration-300">
+            RBAC
+          </span>
+        </div>
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-slate-400 hover:bg-slate-600 hover:text-white transition duration-300">
+            Socket.IO
           </span>
         </div>
       </div>
 
-
       <h1 className="text-3xl">Database and ORM</h1>
       <div className="flex flex-wrap gap-5 my-5">
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300">
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-green-500 hover:bg-green-600 hover:text-white transition duration-300">
             MongoDB
-          </span>
-        </div>
-             <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-red-400 hover:bg-red-400 hover:text-white transition duration-300">
-            Mongoose
           </span>
         </div>
         <div>
@@ -126,14 +130,16 @@ const Skills = () => {
             MySQL
           </span>
         </div>
-
-             <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-indigo-500 hover:bg-indigo-800 hover:text-white transition duration-300">
-            Prisma
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-red-400 hover:bg-red-500 hover:text-white transition duration-300">
+            Mongoose
           </span>
         </div>
-
-       
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-indigo-500 hover:bg-indigo-800 hover:text-white transition duration-300">
+            Prisma ORM
+          </span>
+        </div>
       </div>
 
       <h1 className="text-3xl">DevOps and Cloud</h1>
@@ -144,38 +150,30 @@ const Skills = () => {
           </span>
         </div>
         <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-gray-400 hover:bg-gray-400 hover:text-white transition duration-300">
-            Github
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-gray-400 hover:bg-gray-500 hover:text-white transition duration-300">
+            GitHub
           </span>
         </div>
-           <div>
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-500 hover:bg-blue-600 hover:text-white transition duration-300">
+            GitHub Actions
+          </span>
+        </div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-green-400 hover:bg-green-600 hover:text-white transition duration-300">
-           nginx
+            nginx
           </span>
         </div>
-        
-
-                <div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-purple-400 hover:bg-purple-600 hover:text-white transition duration-300">
-           VPS
+            VPS Deployment
           </span>
         </div>
-
-
-                <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-white hover:bg-yellow-600 hover:text-black transition duration-300">
-           Render
+        <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-yellow-500 hover:bg-yellow-600 hover:text-white transition duration-300">
+            AWS (EC2, RDS, S3, Cloudfront)
           </span>
         </div>
-
-
-                <div>
-          <span className="px-3 py-2 rounded-lg text-black font-bold bg-amber-400 hover:bg-amber-500 hover:text-white transition duration-300">
-          Vercel
-          </span>
-        </div>
-
-
       </div>
     </div>
   </section>
