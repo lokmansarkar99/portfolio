@@ -131,6 +131,11 @@ const Skills = () => {
           </span>
         </div>
         <div>
+          <span className="px-3 py-2 rounded-lg text-black font-bold bg-blue-500 hover:bg-blue-700 hover:text-white transition duration-300">
+            PostgreSQL
+          </span>
+        </div>
+        <div>
           <span className="px-3 py-2 rounded-lg text-black font-bold bg-red-400 hover:bg-red-500 hover:text-white transition duration-300">
             Mongoose
           </span>
